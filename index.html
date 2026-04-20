@@ -41,8 +41,7 @@
         .correct { background: #c8e6c9 !important; border-color: #4caf50 !important; }
         .wrong { background: #ffcdd2 !important; border-color: #f44336 !important; }
 
-        /* Phần còn lại giữ nguyên */
-        #upload-section { background: #f0f8ff; padding: 30px; border-radius: 20px; margin: 20px 0; border: 4px dashed #0277bd; text-align: center; }
+                #upload-section { background: #f0f8ff; padding: 30px; border-radius: 20px; margin: 20px 0; border: 4px dashed #0277bd; text-align: center; }
         button { padding: 15px 35px; font-size: 18px; border: none; border-radius: 50px; cursor: pointer; margin: 10px; font-weight: bold; }
         #upload-btn { background: #ff9800; color: white; }
         #start-btn { background: #0277bd; color: white; font-size: 22px; padding: 18px 60px; }
@@ -74,8 +73,22 @@
                 <p><strong>Hướng dẫn:</strong><br>
                 • <strong>.txt</strong>: Tự động parse (khuyến khích dùng)<br>
                 • <strong>.pdf</strong>: Trích xuất text<br>
-                • File Word: Save As → TXT rồi tải lên</p>
-                
+                • File Word: Save As → TXT rồi tải lên<br>
+• Định dạng file câu hỏi như sau:<br>
+ví dụ cụ thể (giữa các câu hỏi cần có một dòng trống):<br>
+Câu 1: 2 + 3 = ?<br>
+A. 4<br>
+B. 5<br>
+C. 6<br>
+D. 7<br>
+Đáp án: B<br>
+<br>
+Câu 2: Trái Đất có dạng gì?<br>
+A. Hình vuông<br>
+B. Hình tròn (gần cầu)<br>
+C. Hình tam giác<br>
+D. Hình chữ nhật<br>
+Đáp án: B<br>                
                 <input type="file" id="file-upload" accept=".txt,.pdf" style="margin:15px 0;">
                 <button id="upload-btn">🚀 Tải lên và phân tích</button>
             </div>
